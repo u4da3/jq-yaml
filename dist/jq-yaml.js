@@ -3922,8 +3922,8 @@ var jQuery = global.jQuery;
 (function(jQuery){
   jQuery.extend({
 
-  	getYAML: function(url, data, callback) {
-        jQuery.get(url, data, function(yaml, textStatus, jqXHR){
+  	getYAML: function(url, param, callback) {
+        jQuery.get(url, param, function(yaml, textStatus, jqXHR){
             callback(jQuery.parseYAML(yaml), textStatus, jqXHR);
         }, "text");
       },

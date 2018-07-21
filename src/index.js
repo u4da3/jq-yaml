@@ -8,7 +8,7 @@ var jQuery = global.jQuery;
     getYAML: function(url, param, callback) {
       jQuery.get(url, param, function(yaml, textStatus, jqXHR){
           callback(jQuery.parseYAML(yaml), textStatus, jqXHR);
-      }, "text");
+      }, 'text');
     },
 
     parseYAML: function(data) {

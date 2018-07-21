@@ -7,9 +7,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var runSequence = require('run-sequence');
 
-gulp.task('default', [
-  'build',
-]);
+gulp.task('default', ['build']);
 
 gulp.task('build', function(callback) {
   runSequence(

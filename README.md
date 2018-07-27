@@ -5,9 +5,8 @@
 Build depends on [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/).
 
 ```shell
-mkdir jq-yaml
-cd jq-yaml
 git clone git@github.com:u4da3/jq-yaml.git
+cd jq-yaml
 npm install
 gulp build
 ```
